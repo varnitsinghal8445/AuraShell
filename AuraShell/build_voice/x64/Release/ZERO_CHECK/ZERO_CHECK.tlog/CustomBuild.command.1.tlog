@@ -1,0 +1,10 @@
+^D:\AURASHELL__\AURASHELL\BUILD_VOICE\CMAKEFILES\F84ABE7A9EEAC006854F3428F75BE283\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/AuraShell__/AuraShell -BD:/AuraShell__/AuraShell/build_voice --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/AuraShell__/AuraShell/build_voice/AuraShell.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

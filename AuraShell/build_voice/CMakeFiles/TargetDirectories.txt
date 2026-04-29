@@ -1,0 +1,3 @@
+D:/AuraShell__/AuraShell/build_voice/CMakeFiles/AuraShell.dir
+D:/AuraShell__/AuraShell/build_voice/CMakeFiles/ALL_BUILD.dir
+D:/AuraShell__/AuraShell/build_voice/CMakeFiles/ZERO_CHECK.dir
